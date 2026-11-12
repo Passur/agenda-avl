@@ -204,8 +204,7 @@ void liberarArvore(TipoNo* raiz){
 void ordem(TipoNo* raiz){
     if(raiz != NULL){
         ordem(raiz->esq);
-        printf("ID: %d | Nome: %s | Tel: %s
-", raiz->contato.id, raiz->contato.nome, raiz->contato.telefone);
+        printf("ID: %d | Nome: %s | Tel: %s\n", raiz->contato.id, raiz->contato.nome, raiz->contato.telefone);
         ordem(raiz->dir);
     }
 }
