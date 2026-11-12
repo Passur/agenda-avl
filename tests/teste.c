@@ -139,7 +139,6 @@ int main() {
     testarRotacoesDeRemocao();
     testarBuscaEOrdemDeInsercao();
     testarBuscaERemocao();
-    printf("TODOS OS TESTES DA AVL PASSARAM COM SUCESSO!
-");
+    printf("TODOS OS TESTES DA AVL PASSARAM COM SUCESSO!\n");
     return 0;
 }
